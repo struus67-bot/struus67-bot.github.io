@@ -1,0 +1,141 @@
+p {
+    font-size: 50px;
+}
+
+p {
+    font-size: 12px;
+}
+
+/* Comments
+
+*/
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/*
+    . -> Class
+    # -> ID
+
+*/
+
+.header2 {
+    font-size: 10px;
+}
+
+#headerID {
+color: blue;
+font-size: 20px;
+}
+
+/*
+
+    CamelCase
+    Tere-mina-olen-Silver
+    TereMinaOlenSilver
+*/
+
+.header2-extra {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.span1 {
+    color: chocolate;
+    opacity: 0,5;
+}
+
+/*
+
+Text - Red
+RGB (Red, Green, Blue) - 0-255
+RGBA (Red, Green, Blue, Alpha)
+HEX - 0-f - ff0000
+HEX Alpha - ff000000
+Alpha - Opacity ehk läbipaistvus
+
+*/
+
+a {
+    text-decoration: none;
+    cursor: alias;
+    color: rgb(255, 0, 0);
+}
+
+.div1, .div2, .div3, .div4, .DivWithImg {
+    background-color: gray;
+    padding: 10px;
+    border: solid 2px red;
+    margin: 15px;
+    height: 60px;
+    width: 25%;
+}
+
+.div1, .div2 {
+    left: 100px;
+}
+
+.div1 {
+    position: static;
+
+}
+
+.div2 {
+    position: relative;
+}
+
+.div3 {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+}
+
+.div4 {
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+img {
+    width: 100%;
+}
+
+.para1 {
+    font-size: 25px;
+    justify-self: center;
+    text-shadow: 1px 1px 5px white;
+}
+
+.DivWiThimg {
+    background-image: url("../Lesson 2/Images/orange-monkey-monkey.png");
+    width: 100%;
+    background-size: cover;
+}
+
+.tab1 > tbody > tr > td:first-child {
+font-weight: bold;
+color: red;
+}
+
+/*
+    2n - Paaris arvud
+    2n + 1 - Paaritu arvud
+*/
+
+.tab1 > tbody > tr:nth-child(2n) > td:last-child {
+font-weight: bold;
+color: rgb(25, 0, 255);
+}
+
+.form1 {
+    margin-top: 20px;
+}
+
+.form1 > div {
+    margin-top: 15px;
+    width: 100px;
+}
